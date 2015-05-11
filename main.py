@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import pyttsx
+from voice.voice import test_voice
 
 """
 This is the entry point of my AI engine.
@@ -11,7 +11,7 @@ voice synthesis - pyttsx
 """
 
 def main():
-    pass
+    test_voice("this is the first utterance of the bot")
     
 if __name__ == '__main__':
     main()
